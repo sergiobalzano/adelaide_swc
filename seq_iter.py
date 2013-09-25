@@ -1,4 +1,5 @@
 
+# number of sequences in a fasta file
 def give_dna_stats(seqs):
   fh = open('fasta.fas', 'r')
   line = fh.readline()
